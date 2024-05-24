@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://amazon-api-deploy-ud59.onrender.com/", // replace with your base URL
+  baseURL: "https://amazon-api-deploy-guxx.onrender.com/", // replace with your base URL
   
 });
 export{axiosInstance};

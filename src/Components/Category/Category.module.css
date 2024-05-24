@@ -1,4 +1,4 @@
-.category__container {
+.category__container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
@@ -8,7 +8,6 @@
 }
 
 .category {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,26 +29,23 @@
   object-fit: cover; /* Ensures the image covers the area well */
 }
 
-.category h2 {
-  margin: 10px 0;
-  font-size: 18px;
-  color: #333;
-  text-decoration: none !important;
-}
-
-.category link {
+.category .category-link {
   padding: 8px 16px;
-  
   color: #fff;
-  text-decoration: none;
+  text-decoration-line: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
   border-radius: 5px;
   margin-bottom: 10px; /* Space at bottom inside the category box */
   font-weight: bold;
 }
 
-.category link:hover {
+.category .category-link:hover {
   background-color: #d2cfc0; /* Darker on hover */
 }
+
+
+
 .category {
   position: relative; /* Set parent container to relative positioning */
 }
@@ -64,5 +60,3 @@
   position: absolute; /* Set p element to absolute positioning */
   bottom: 10px; /* Move p element 10px above the parent container */
 }
-
-
