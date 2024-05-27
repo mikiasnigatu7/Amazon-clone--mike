@@ -4,12 +4,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore, collection, doc, setDoc, query, orderBy, onSnapshot } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC7ikfMEUK2aLcfPftJ60h7hYb7yW2u5rg",
-  authDomain: "e-clone-3f992.firebaseapp.com",
-  projectId: "e-clone-3f992",
-  storageBucket: "e-clone-3f992.appspot.com",
-  messagingSenderId: "200181488369",
-  appId: "1:200181488369:web:ad73175a8718a6f87a6750"
+  apiKey: "AIzaSyCCQWIsxToDKbc0yFc6LJhg5CFJQ_YlaQw",
+  authDomain: "clone-mk-cb03c.firebaseapp.com",
+  projectId: "clone-mk-cb03c",
+  storageBucket: "clone-mk-cb03c.appspot.com",
+  messagingSenderId: "449508836712",
+  appId: "1:449508836712:web:ef3df3b37ffbd9358842dd",
 };
 
 // Initialize Firebase
